@@ -1,0 +1,41 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Local package/env files
+renv/library/
+renv/staging/
+.Renviron
+
+# Runtime data
+/data/*.sqlite
+/data/*.sqlite-shm
+/data/*.sqlite-wal
+/data/*.db
+/data/*.db-shm
+/data/*.db-wal
+
+# EDA/runtime outputs
+/outputs/eda/
+/outputs/**/*.csv
+/outputs/**/*.xlsx
+/outputs/**/*.pdf
+/outputs/**/*.html
+/outputs/dashboard/Dashboard-*.png
+
+# Keep selected dashboard screenshot for README/release
+!/outputs/dashboard/Dashboard-1.png
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# R package build artifacts
+*.tar.gz
+.Rcheck/
