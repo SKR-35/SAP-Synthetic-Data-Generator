@@ -1,3 +1,9 @@
+## Live Demo
+
+Explore the deployed Shiny dashboard:
+
+https://skr-35.shinyapps.io/sap-fi-synthetic-dashboard/
+
 # SAP Synthetic FI Data Generator
 
 **R + SQLite toolkit** for generating safe, PII-free, SAP-style synthetic Finance data and exploring it through a Shiny dashboard.
